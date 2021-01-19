@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #009993;
 }
 
 #header .profile h1 {
@@ -1076,7 +1076,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #009993;
 }
 
 #footer .copyright {
