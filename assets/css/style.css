@@ -741,23 +741,21 @@ section {
 # Testimonials Expand - Hover 
 --------------------------------------------------------------*/
 
-.testimonials .section-bg {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 70vw; // width or max-width must be specified
- 
-  &:hover {
-    white-space: normal;
-  }
-    // on a touch device, a click is equivalent to hover - text will expand and remain that way
-  
-  padding: 1em;
-  line-height: 1.4;
-  border-radius: 0;
-  border: none;
-  background-color: $color-input;
-  box-shadow: $box-shadow;
+/* Container for the text that expands on hover */
+.expanded-text {
+    width: 100%;
+}
+/* Longer name hidden by default  */
+span.longer-name{
+ display:none;
+}
+/* On hover, hide the short name */
+.expanded-text:hover span.short-name{
+ display:none;
+}
+/* On hover, display the longer name.  */
+.expanded-text:hover span.longer-name{
+ display:block;
 }
 
 
